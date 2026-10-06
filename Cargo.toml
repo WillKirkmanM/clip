@@ -1,0 +1,9 @@
+[package]
+name = "clip"
+version = "0.1.0"
+edition = "2024"
+description = "The Clip Command Sends Text to the Windows Clipboard, with Configurable Line Endings and a Preview Mode"
+keywords = ["windows", "clipboard", "cli", "rust", "parsonlabs"]
+
+[dependencies]
+clap = { version = "=4.6.6", features = ["derive"] }
